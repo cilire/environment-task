@@ -93,8 +93,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: c42af35285f56334ab53a0371de45d63, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: dab3af59af1afc74d91ed91cdbd7db17, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -479,6 +479,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1277030170}
     m_Modifications:
+    - target: {fileID: 5156838890992183200, guid: 5e435f285f3d011488dbec2c20cb435d, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5156838890994186592, guid: 5e435f285f3d011488dbec2c20cb435d, type: 3}
       propertyPath: m_Name
       value: PP_Paper_Roll_01
@@ -649,7 +653,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -758,6 +762,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1277030170}
     m_Modifications:
+    - target: {fileID: 7413659883411584670, guid: 9380f34c10f5fe34e863c769353585c0, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7413659883413353598, guid: 9380f34c10f5fe34e863c769353585c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.44157
@@ -1027,6 +1035,10 @@ PrefabInstance:
     - target: {fileID: 4169698474936760176, guid: a8d1317027e9eb24b8544ccf6085320d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 8.044006
+      objectReference: {fileID: 0}
+    - target: {fileID: 4169698474938529168, guid: a8d1317027e9eb24b8544ccf6085320d, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1672,6 +1684,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1277030170}
     m_Modifications:
+    - target: {fileID: 2639654014292273039, guid: a2b21baf50fb023478ee35b93c0c27a1, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2639654014294276431, guid: a2b21baf50fb023478ee35b93c0c27a1, type: 3}
       propertyPath: m_Name
       value: PP_Stone_Crystal_02_Gold (2)
@@ -2026,7 +2042,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2049,6 +2065,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1277030170}
     m_Modifications:
+    - target: {fileID: 5676840300736661830, guid: 2ce7f3f60a7219d478bdc624979d8024, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5676840300738431910, guid: 2ce7f3f60a7219d478bdc624979d8024, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.2654133
@@ -2283,6 +2303,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1277030170}
     m_Modifications:
+    - target: {fileID: 5676840300736661830, guid: 2ce7f3f60a7219d478bdc624979d8024, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5676840300738431910, guid: 2ce7f3f60a7219d478bdc624979d8024, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.4807506
@@ -2539,7 +2563,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2666,7 +2690,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2793,7 +2817,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -3141,7 +3165,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -3308,6 +3332,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3761745242275304228, guid: 305a388b6539d3041a283b76508de030, type: 3}
       propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3761745242277073348, guid: 305a388b6539d3041a283b76508de030, type: 3}
+      propertyPath: m_StitchLightmapSeams
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3547,6 +3575,10 @@ PrefabInstance:
     - target: {fileID: 8532955857504993413, guid: 49a22eca69e75c44d946d2ab48092be6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8834443723270644806, guid: 49a22eca69e75c44d946d2ab48092be6, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4088,7 +4120,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -4197,6 +4229,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1277030170}
     m_Modifications:
+    - target: {fileID: 2639654014292273039, guid: a2b21baf50fb023478ee35b93c0c27a1, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2639654014294276431, guid: a2b21baf50fb023478ee35b93c0c27a1, type: 3}
       propertyPath: m_Name
       value: PP_Stone_Crystal_02_Gold
@@ -4348,6 +4384,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1277030170}
     m_Modifications:
+    - target: {fileID: 373167418757855601, guid: 65364203934264348b2aa18aac81b750, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 373167418759625617, guid: 65364203934264348b2aa18aac81b750, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.87991756
@@ -4500,6 +4540,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1277030170}
     m_Modifications:
+    - target: {fileID: 1068553519889591419, guid: 4bb5291a21fb70a42ba663daf3777d33, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1068553519891591867, guid: 4bb5291a21fb70a42ba663daf3777d33, type: 3}
       propertyPath: m_Name
       value: PP_Gemstone_07_Copper
@@ -4740,7 +4784,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -4849,6 +4893,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1277030170}
     m_Modifications:
+    - target: {fileID: 2639654014292273039, guid: a2b21baf50fb023478ee35b93c0c27a1, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2639654014294276431, guid: a2b21baf50fb023478ee35b93c0c27a1, type: 3}
       propertyPath: m_Name
       value: PP_Stone_Crystal_02_Gold (1)
@@ -5017,6 +5065,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1277030170}
     m_Modifications:
+    - target: {fileID: 5676840300736661830, guid: 2ce7f3f60a7219d478bdc624979d8024, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5676840300738431910, guid: 2ce7f3f60a7219d478bdc624979d8024, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.7259607
@@ -5221,6 +5273,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3761745242277073348, guid: 305a388b6539d3041a283b76508de030, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5389,6 +5445,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3761745242277073348, guid: 305a388b6539d3041a283b76508de030, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5477,6 +5537,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1277030170}
     m_Modifications:
+    - target: {fileID: 4351688707096710592, guid: 7636ce4d333d86b4f9da6559a4d8399a, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4351688707098611488, guid: 7636ce4d333d86b4f9da6559a4d8399a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.37757
@@ -5717,7 +5781,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -6516,6 +6580,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1277030170}
     m_Modifications:
+    - target: {fileID: 5156838890992183200, guid: 5e435f285f3d011488dbec2c20cb435d, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5156838890994186592, guid: 5e435f285f3d011488dbec2c20cb435d, type: 3}
       propertyPath: m_Name
       value: PP_Paper_Roll_01
@@ -6816,6 +6884,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1277030170}
     m_Modifications:
+    - target: {fileID: 5676840300736661830, guid: 2ce7f3f60a7219d478bdc624979d8024, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5676840300738431910, guid: 2ce7f3f60a7219d478bdc624979d8024, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.6565262
@@ -6986,7 +7058,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -7009,6 +7081,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1277030170}
     m_Modifications:
+    - target: {fileID: 5662333279098529469, guid: d9449dcf4f9e2a64e84d9337dcb438eb, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5662333279100532861, guid: d9449dcf4f9e2a64e84d9337dcb438eb, type: 3}
       propertyPath: m_Name
       value: PP_Gemstone_05_Green
